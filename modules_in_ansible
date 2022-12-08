@@ -1,0 +1,11 @@
+Ansible config file path in ansible host machine: /etc/ansible/ansible.cfg.
+===modules====
+yum : Used to install packages eg: git, httpd..
+user : using this, you can create, sett passwords, add groups, and delete the user’s account
+file : Using this we can create file with required permissions, we can add owner & group as well
+archive : This module creates the compressed archives of different files
+shell : To execute shell commands
+k8s: To execute kubectl commands
+copy: To copy files
+apt: Ubuntu package manger module in ansible
+
