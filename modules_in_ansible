@@ -8,4 +8,6 @@ shell : To execute shell commands
 k8s: To execute kubectl commands
 copy: To copy files
 apt: Ubuntu package manger module in ansible
-
+service: The service module enables you to start, stop, and reload installed packages; this comes in pretty handy
+git: The git module manages git checkouts of repositories to deploy files or software.
+command: One of the most basic but useful modules, the command module takes the command name followed by a list of space-delimited arguments.
